@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Golden Ratio</title>
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/gr.css">
+	<script type="text/javascript" src="js/gr.js"></script>
+</head>
+<body>
+	<header>
+		<span class="hbbutton"><a onclick="hb()"><img src="images/hb.png" style="width: 60px;"></a></span>
+		<nav id="nav1">			
+			<a href="index.html" style="background-color: #F3D250;">Home</a>
+			<a href="facts.html" style="background-color: #90CCF4;">Facts</a>
+			<a href="app.html" style="background-color: #F78888;">Applications</a>
+		</nav>
+		<h1><img class="imagetop" id="gigfactt" src="images/giphy1.gif" style="margin-left: 1vw;">
+		<span class="ht" id="ght">GOLDEN RATIO : FACTS<span>
+		<img class="imagebottom" id="gigfact" src="images/giphy1.gif" style="margin-left: 1vw;"></h1>
+	</header>
+	<main>
+		<div class="div1" id="fact1">
+			<p class="question"> Let's go to the roots and find how it is derived <img src="images/yawn.png" style="width: 40px;"></p>
+				<p class="answer" style="font-size: 1.1em;">Two quantities a and b are said to be in golden ratio(<span style="font-size: 1.2em">&#934</span> ), if <br><br>
+				<img src="images/deriv_8rbg.png" style="width:12%"></img><br>
+				<p class="answer" style="font-size: 1.1em;">Through simplifying the fraction and substituting in b/a = 1/φ<br>
+				<img src="images/deriv_1rbg.png" style="width:30%;"></img><br><br>
+				Therefore,<br>
+				<img src="images/deriv_10rbg.png" style="width:12%;"></img><br><br>
+				Multiplying by φ gives<br>
+				<img src="images/deriv_11rbg.png" style="width:11%;"></img><br><br>
+				Which can be rearranged to<br>
+				<img src="images/deriv_12rbg.png" style="width:13%;"></img><br><br>
+				Using the quadratic formula, two solutions are obtained:<br>
+				<img src="images/deriv_5rbg.png" style="width:41%;"></img><br><br>
+				Because φ is the ratio between positive quantities, φ is necessarily positive:<br>
+				<img src="images/deriv_4rbg.jpeg" style="width:22%;"></img><br><br>
+			</p>
+		</div>
+			
+		<div class="div2" id="fact2">
+			<p class="question"> Now that we have seen the derivation of golden ratio, we'll see some more interesting facts about it! <img src="images/glass.png" style="width: 40px;"></p><br>
+			<p class="answer">
+				* <span style="font-size: 1.2em">&#934</span> is the only number whose square is greater than itself by one, expressed mathematically as <span style="font-size: 1.2em">&#934</span>² = <span style="font-size: 1.2em">&#934</span> + 1 = 2.618.<br><br>
+			    * <span style="font-size: 1.2em">&#934</span> is also the only number whose reciprocal is less than itself by one, expressed as 1/<span style="font-size: 1.2em">&#934</span> = <span style="font-size: 1.2em">&#934</span> – 1 = 0.618<br><br>
+			    * In geometry, the golden angle is the angle subtnded by the smaller (blue) arc when when two arcs that make up a circle are in golden ratio. That is, the ratio of length of smaller arc to the length of larger arc is same as the ratio of the length of the larger arc to the complete circumference of the circle. It measures approximately 137.50<sup>o</sup> or 2.39 radians.<br><br>
+			    <span style="display: block; text-align: center; font-size: 1.15em;"><img src="images/circle.png" id="circle"></span>
+		</div>
+		<div class="div3" id="same">
+			<p class="question">Do you want to find out how the Fibonacci numbers converge with the Golden Ratio? <img src="images/learn.png" style="width: 70px;"></p>
+			<br>
+			<p class="answer">
+				<label for="vol1">A (between 1 and 100):</label>
+			    <input type="range" id="vol1" name="vol" min="1" max="100" value="1">
+		    	<label for="vol2">B (between 1 and 100):</label>
+				<input type="range" id="vol2" name="vol" min="1" max="100" value="1">
+				Slide above and <a class="a3" href="#same" onclick="start()"><img src="images/rp.png" style="width: 25px;"> Click here</a> to try your own example by entering the first two number of your own Fibonacci Sequence.</p>
+			<table>
+				<tr><th>Actual Ratio</th><th>Percentage Convergence</th><th>Simple Ratio</th></tr>
+				<tr><td id="ans1ar">1.0000000000000000000000000</td><td id="ans1pd">38.1966011250105097474261129</td><td id="ans1sr">1 / 1
+</td></tr>
+				<tr><td id="ans2ar">2.0000000000000000000000000</td><td id="ans2pd">61.8033988749894902525738871</td><td id="ans2sr">2 / 1
+</td></tr>
+				<tr><td id="ans3ar">1.5000000000000000000000000</td><td id="ans3pd">88.1966011250105168528534705</td><td id="ans3sr">3 / 2
+</td></tr>
+				<tr><td id="ans4ar">1.6666666666666667406815350	</td><td id="ans4pd">95.1367322083228117435282911</td><td id="ans4sr">5 / 3
+</td></tr>
+				<tr><td id="ans5ar">1.6000000000000000888178420</td><td id="ans5pd">98.1966011250105168528534705</td><td id="ans5sr">8 / 5
+</td></tr>
+				<tr><td id="ans6ar">1.6250000000000000000000000</td><td id="ans6pd">99.3033988749894831471465295</td><td id="ans6sr">13 / 8
+</td></tr>
+				<tr><td id="ans7ar">1.6153846153846154187760931</td><td id="ans7pd">99.7350626634720498486785800</td><td id="ans7sr">21 / 13
+</td></tr>
+				<tr><td id="ans8ar">1.6190476190476190687661529</td><td id="ans8pd">99.8986369702275851523154415</td><td id="ans8sr">34 / 21</td></tr>
+			</table><br><br>
+			<p class="question">Note :</p>
+			<p class="answer">* Actual Ratio : The ratio of two consecutive numbers of the Fibonacci Sequence. Consider two consecutive numbers 'a' and 'b', then their Actual Ratio is a floating point ratio of b / a<br><br>
+			* Percentage Convergence : It represents the percentage equivalence of Actual Ratio to the Golden Ratio.
+			Percentage Divergence =100 - (&#916 x / x) * 100, where 'x' is the Actual Ratio<br><br>
+			* Simple Ratio : The ratio of two consecutive numbers of the Fibonacci Sequence. Consider two consecutive numbers 'a' and 'b', then their Simple Ratio is represented as  b / a</p>
+		</div>
+		<div class="div1" id="fact4">
+			<p class="question">Here are some Cool <img src="images/glasses.png" style="width: 40px;"> facts about Golden Ratio</p><br>
+			<p class="answer">
+				Check out <img src="images/horn.png" style="width: 40px;"> whether your favourite celebrity is in the list<br>
+			</p>
+			<table>
+				<tr><td>1. Scarlett Johansson<br>Actual Ratio : 1.56<br>Convergence : 96.4%</td><td>6. Kelly Brook<br>Actual Ratio : 1.742<br>Convergence : 92.9%</td></tr>
+				<tr><td>2. Kim Kardashian<br>Actual Ratio : 1.558<br>Convergence : 96.3%</td><td>7. Katy Perry<br>Actual Ratio : 1.489<br>Convergence : 92.0%</td></tr>
+				<tr><td>3. Helen Mirren<br>Actual Ratio : 1.546<br>Convergence : 95.6%</td><td>8. Cameron Diaz<br>Actual Ratio : 1.765<br>Convergence : 91.0%</td></tr>
+				<tr><td>4. Marilyn Monroe<br>Actual Ratio : 1.7185<br>Convergence : 94.0%</td><td>9. Elle Macpherson<br>Actual Ratio : 1.833<br>Convergence : 88.3%</td></tr>
+				<tr><td>5. Rita Ora<br>Actual Ratio : 1.504<br>Convergence : 93.0%</td><td>10. Salma Hayek<br>Actual Ratio : 1.838<br>Convergence : 88.0%</td></tr>
+			</table>
+		</div>
+	</main>
+</body>
+</html>
