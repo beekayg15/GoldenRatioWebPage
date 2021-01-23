@@ -1,6 +1,14 @@
 # GoldenRatioWebPage
 An **Interactive** and **Informative** webpage on Golden Ratio created using `HTML5`, `CSS3`, and `JavaScript`.
 
+## Tools and Languages Used
+<p>
+<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/sublime-text.svg"/>
+<img width="48" height="48" hspace="10" src="https://cdn.worldvectorlogo.com/logos/html5-1.svg"/>
+<img width="48" height="48" hspace="10" src="https://cdn.worldvectorlogo.com/logos/css-5.svg"/>
+<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/javascript-2.svg"/>
+</p>
+
 ## Project Contents 
 -	**HTML** files - 3
 -	**CSS** files - 1
