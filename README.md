@@ -1,14 +1,15 @@
 # GoldenRatioWebPage
-Page Deployment Link: https://barathkumarbk-15.github.io/GoldenRatioWebPage/
+Page Deployment Link: <a href="https://barathkumarbk-15.github.io/GoldenRatioWebPage/" >Click Here 👈</a>
 ***
 An **Interactive** and **Informative** webpage on Golden Ratio created using `HTML5`, `CSS3`, and `JavaScript`.
 
 ## Tools and Languages Used
 <p>
-<img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/5.svg"/>
-<img width="48" height="48" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/6.svg"/>
-<img width="36" height="48" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/7.png"/>
-<img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/8.svg"/>
+<img width="50" height="50" hspace="20" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/5.svg"/>
+<img width="50" height="60" hspace="20" src="https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png"/>
+<img width="50" height="60" hspace="20" src="https://seeklogo.com/images/C/css3-logo-FD8D698B77-seeklogo.com.png"/>
+<img width="50" height="50" hspace="20" src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"/>
+<img width="50" height="50" hspace="20" src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"/>
 </p>
 
 ## Download and Usage :
