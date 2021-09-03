@@ -3,58 +3,146 @@
 <head>
 	<title>Golden Ratio</title>
 	<meta charset="utf-8">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Bootstrap Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/gr.css">
-	<script type="text/javascript" src="js/gr.js"></script>
+
 </head>
-<body>
+
+	<!-- HEADER START -->
 	<header>
-		<span class="hbbutton"><a onclick="hb()"><img src="images/hb.png" style="width: 60px;"></a></span>
-		<nav id="nav1">		
-			<a href="index.html" style="background-color: #F3D250;">Home</a>
-			<a href="facts.html" style="background-color: #90CCF4;">Facts</a>
-			<a href="app.html" style="background-color: #F78888;">Applications</a>
-		</nav>
-		<h1><img class="imagetop" src="images/giphy3.gif" style="margin-left: 1vw;">
-		<span class="ht" style="font-size: 1.3em">GOLDEN RATIO<br><span>
-		<img class="imagebottom" src="images/giphy3.gif" style="margin-left: 1vw;height: 15vh;"></h1>
+		<div class="container-fluid">
+
+			<!-- NAVBAR START -->
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="ms-auto navbar-toggler" data-bs-toggle="collapse" data-bs-target="#gr-nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="justify-content-around collapse navbar-collapse" id="gr-nav">
+					<ul class="w-100 mt-lg-0 mt-2 me-lg-1 justify-content-center text-center navbar-nav">
+						<li class="w-100 nav-item">
+							<a href="index.html" class="bg-yellow py-3 px-5 rounded-2 nav-link">Home</a>
+						</li>
+					</ul>
+					<ul class="w-100 mt-lg-0 mt-2 mx-lg-1 justify-content-center text-center navbar-nav">
+						<li class="w-100 nav-item">
+							<a href="facts.html" class="bg-blue py-3 px-5 rounded-2 nav-link">Facts</a>
+						</li>
+					</ul>
+					<ul class="w-100 mt-lg-0 mt-2 ms-lg-1 justify-content-center text-center navbar-nav">
+						<li class="w-100 nav-item">
+							<a href="app.html" class="bg-pink py-3 px-5 rounded-2 nav-link">Applications</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- NAVBAR END -->
+
+			<div class="title my-4">
+				<div class="justify-content-center align-items-center row">
+					<div class="d-flex justify-content-center col-lg-4">
+						<img src="images/giphy3.gif" alt="gif-img" class="img-fluid">
+					</div>
+					<div class="col-lg-8 d-flex justify-content-center justify-content-lg-end">
+						<h1 class="mt-4 m-lg-0">GOLDEN RATIO</h1>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
-	<main>
-		<div class="div1">
-			<p class="question">What is GOLDEN RATIO ? <img src="images/think.png" style="width: 40px;"></p>
+	<!-- HEADER END -->
+
+	<!-- MAIN START -->
+	<main class="container-fluid">
+		<section class="my-3 rounded-2 bg-yellow p-4">
+			<p class="question">
+				What is GOLDEN RATIO ? 
+				<img src="images/think.png" style="width: 40px;">
+			</p>
 			<p class="answer">
-				Golden Ratio is special irrational number represented by '<span style="font-size: 1.2em">&#934</span>' . Its value is around 1.61803398874989484820. If the ratio of two numbers turns out to be tending to 		1.6180, then the numbers are said to be in Golden Ratio.<br><br>
-				In mathematics, two quantities are said to be golden ratio, if their ratio is same as the ratio of their sum to the largest of the two quantities. Consider, two numbers 'a' and 'b', where a > b, their golden ratio is represented as,<br>
-				<span style="display: block; text-align: center; font-size: 1.15em;">a / b = (a + b) / a = <span style="font-size: 1.2em">&#934</span></span><br>
+				Golden Ratio is special irrational number represented by '
+				<span style="font-size: 1.2em">
+					&#934
+				</span>
+				' . Its value is around 1.61803398874989484820. If the ratio of two numbers turns out to be tending to 		1.6180, then the numbers are said to be in Golden Ratio.<br><br>
+				In mathematics, two quantities are said to be golden ratio, if their ratio is same as the ratio of their sum to the largest of the two quantities. Consider, two numbers 'a' and 'b', where a > b, their golden ratio is represented as,
+				<br>
+				<span style="display: block; text-align: center; font-size: 1.15em;">
+					a / b = (a + b) / a = 
+					<span style="font-size: 1.2em">
+						&#934
+					</span>
+				</span>
+				<br>
 				It is the solution of the quadratic equation, x<sup>2</sup> - x - 1 = 0 , that is x = (1 + <span>&#8730;</span>5) / 2
 				<img src="images/thumb.jpg" style="width: 35px; margin-left: 30px;">
 			</p>
-		</div>
-		<div class="div2">
-			<p class="question">Did you know ? <img src="images/see.png" style="width: 40px;"></p>
-			<p class="answer">
-				The ratios of sequential Fibonacci numbers ( 2/1 , 3/2 , 5/3 ... ) approach to the golden ratio. In fact, the higher the Fibonacci numbers, their ratio is closer to 1.6180339... . Here is a small illustration ,<br>
-				<span style="display: block; text-align: center;">2 / 1 = 2.00000<br>3 / 2 = 1.50000<br>5 / 3 = 1.66667<br>8 / 5 = 1.60000</span><br>
-				The golden ratio is sometimes called the 'Divine Proportion', because of its frequency in the natural world.<br><br>
-				Seems interesting right!! <a href="facts.html"> <img src="images/rp.png" style="width: 25px;"> Click here </a> to discover more astonishing facts.
+		</section>
+		<section class="my-3 rounded-2 bg-blue p-4">
+			<p class="question">
+				Did you know ? 
+				<img src="images/see.png" style="width: 40px;">
 			</p>
-		</div>
-		<div class="div3">
-			<p class="question">Wonder where it's used ? <img src="images/astonish.png" style="width: 40px;"></p>
 			<p class="answer">
-				<img src="images/apple.jpg" style="width: 60px"><span style="margin-left: 15px;">Have you ever wondered why Apple's logo is so asthetic? Well, it is one among enormous applications of the concept of Golden Ratio.</span><br><br>
-				The Golden Ratio is used by developers to design logos for their products. Logos of brands like Nike and Volkswagen are other classy examples of it. No suprise that the Golden Ratio was also used in various historical monuments since the beginning of human civilizations.</span><br><br>
-				<a href="app.html" class="a3"> <img src="images/rp.png" style="width: 25px;"> Click here </a>to view more tempting applications of the Golden Ratio.
+				The ratios of sequential Fibonacci numbers ( 2/1 , 3/2 , 5/3 ... ) approach to the golden ratio. In fact, the higher the Fibonacci numbers, their ratio is closer to 1.6180339... . Here is a small illustration ,
+				<br>
+				<span class="d-block text-center">
+					2 / 1 = 2.00000
+					<br>
+					3 / 2 = 1.50000
+					<br>
+					5 / 3 = 1.66667
+					<br>
+					8 / 5 = 1.60000
+				</span>
+				<br>
+				The golden ratio is sometimes called the 'Divine Proportion', because of its frequency in the natural world.
+				<br><br>
+				Seems interesting right!! 
+				<a href="facts.html"> 
+					<img src="images/rp.png" style="width: 25px;"> 
+					Click here 
+				</a> 
+				to discover more astonishing facts.
+			</p>
+		</section>
+		<section class="my-3 rounded-2 bg-pink p-4">
+			<p class="question">
+				Wonder where it's used ? 
+				<img src="images/astonish.png" style="width: 40px;">
+			</p>
+			<p class="answer">
+				<img src="images/apple.jpg" style="width: 60px">
+				<span style="margin-left: 15px;">
+					Have you ever wondered why Apple's logo is so aesthetic? Well, it is one among enormous applications of the concept of Golden Ratio.
+				</span>
+				<br><br>
+				<span>
+					The Golden Ratio is used by developers to design logos for their products. Logos of brands like Nike and Volkswagen are other classy examples of it. No suprise that the Golden Ratio was also used in various historical monuments since the beginning of human civilizations.
+				</span>
+				<br><br>
+				<a href="app.html" class="a3"> 
+					<img src="images/rp.png" style="width: 25px;"> 
+					Click here 
+				</a>
+				to view more tempting applications of the Golden Ratio.
 			</p>
 		</div>
 	</main>
+	<!-- MAIN END -->
+
+	<!-- JS Scripts -->
+	<script type="text/javascript" src="js/gr.js"></script>
 </body>
 </html>
