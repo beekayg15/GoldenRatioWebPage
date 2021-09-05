@@ -105,6 +105,10 @@ a:hover {
 	cursor: pointer;
 }
 
+.w-150 {
+	min-width: 150px;
+}
+
 .w-300 {
 	min-width: 300px;
 }
