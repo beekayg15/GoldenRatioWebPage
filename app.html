@@ -1,298 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Golden Ratio</title>
-	<meta charset="utf-8">
+  <head>
+    <title>Golden Ratio</title>
+    <meta charset="utf-8" />
 
-	<!-- Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
 
-	<!-- Bootstrap Scripts -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
 
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/gr.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/gr.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header>
+      <div class="container-fluid">
+        <!-- NAVBAR START -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="ms-auto navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#gr-nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="justify-content-around collapse navbar-collapse"
+            id="gr-nav"
+          >
+            <ul
+              class="
+                w-100
+                mt-lg-0 mt-2
+                me-lg-1
+                justify-content-center
+                text-center
+                navbar-nav
+              "
+            >
+              <li class="w-100 nav-item">
+                <a
+                  href="index.html"
+                  class="bg-yellow py-3 px-5 rounded-2 nav-link"
+                  >Home</a
+                >
+              </li>
+            </ul>
+            <ul
+              class="
+                w-100
+                mt-lg-0 mt-2
+                mx-lg-1
+                justify-content-center
+                text-center
+                navbar-nav
+              "
+            >
+              <li class="w-100 nav-item">
+                <a
+                  href="facts.html"
+                  class="bg-blue py-3 px-5 rounded-2 nav-link"
+                  >Facts</a
+                >
+              </li>
+            </ul>
+            <ul
+              class="
+                w-100
+                mt-lg-0 mt-2
+                ms-lg-1
+                justify-content-center
+                text-center
+                navbar-nav
+              "
+            >
+              <li class="w-100 nav-item">
+                <a href="app.html" class="bg-pink py-3 px-5 rounded-2 nav-link"
+                  >Applications</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- NAVBAR END -->
 
-</head>
-<body>
-	<!-- HEADER START -->
-	<header>
-		<div class="container-fluid">
+        <div class="title my-4">
+          <div class="justify-content-center align-items-center row">
+            <div class="d-flex justify-content-center col-lg-4">
+              <img src="images/giphy.gif" alt="gif-img" class="img-fluid" />
+            </div>
+            <div
+              class="
+                text-center
+                col-lg-8
+                d-flex
+                justify-content-center justify-content-lg-end
+              "
+            >
+              <h1 class="mt-4 m-lg-0">GOLDEN RATIO - Applications</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
 
-			<!-- NAVBAR START -->
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<button class="ms-auto navbar-toggler" data-bs-toggle="collapse" data-bs-target="#gr-nav">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="justify-content-around collapse navbar-collapse" id="gr-nav">
-					<ul class="w-100 mt-lg-0 mt-2 me-lg-1 justify-content-center text-center navbar-nav">
-						<li class="w-100 nav-item">
-							<a href="index.html" class="bg-yellow py-3 px-5 rounded-2 nav-link">Home</a>
-						</li>
-					</ul>
-					<ul class="w-100 mt-lg-0 mt-2 mx-lg-1 justify-content-center text-center navbar-nav">
-						<li class="w-100 nav-item">
-							<a href="facts.html" class="bg-blue py-3 px-5 rounded-2 nav-link">Facts</a>
-						</li>
-					</ul>
-					<ul class="w-100 mt-lg-0 mt-2 ms-lg-1 justify-content-center text-center navbar-nav">
-						<li class="w-100 nav-item">
-							<a href="app.html" class="bg-pink py-3 px-5 rounded-2 nav-link">Applications</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<!-- NAVBAR END -->
+    <!-- MAIN START -->
+    <main class="container-fluid p-1 p-sm-3 p-md-4 p-lg-5 bg-grey">
+      <div class="container">
+        <section class="bg-pink p-4 rounded-2 my-3" id="cat0">
+          <p class="question">
+            Is Golden Ratio really helpful?
+            <img
+              style="width: 40px"
+              class="img-fluid rounded-start rounded-end"
+              src="images/suprise.png"
+              style="width: 40px"
+            />
+          </p>
+          <p class="answer">
+            * Nature is full of amazing phenomena like Spiral Leaves Growth
+            found in many Plants, not just like Sunflower, which follows golden
+            ratio.
+            <br /><br />
+            * In Photography, the Rule of Thirds is arguably the strongest, most
+            important rule of composition. It tend to provide the overall
+            framework for an image, creating 'balance' and allowing other
+            compositional elements to work with the photo. At the very least it
+            is a good starting point when composing a shot.<br /><br />
+            * The above mentioned examples are just a grain of sand among other
+            vast applications of Golden Ratio. Below are some more examples of
+            it...
+          </p>
+        </section>
+        <div class="rounded-pill my-3 text-center bg-yellow">
+          <a class="d-block py-3" id="a1" onclick="discat1()">Brand Logos</a>
+        </div>
+        <section style="display: none;" class="p-4 rounded-2 my-4 bg-yellow" id="cat1">
+          <p class="answer">
+            Top brand logos utilising the concept of Golden Ratio are listed
+            below
+          </p>
+          <div class="table-responsive">
+            <table class="table">
+              <tr>
+                <td class="w-300 text-center round-top-left bg-dark-yellow">
+                  1. Apple
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-top"
+                    src="images/applegr.jpg"
+                  />
+                  <br />
+                </td>
+                <td class="w-300 text-center round-top-right bg-light-yellow">
+                  2. McDonald
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-top"
+                    src="images/mcdonald.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center bg-light-yellow">
+                  3. Nike
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-top"
+                    src="images/nike.png"
+                  />
+                  <br />
+                </td>
+                <td class="text-center bg-dark-yellow">
+                  4. Adidas
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-top"
+                    src="images/adidas.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center bg-dark-yellow">
+                  5. Twitter
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-top"
+                    src="images/twitter.png"
+                  />
+                  <br />
+                </td>
+                <td class="text-center bg-light-yellow">
+                  6. Volkswagen
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-top"
+                    src="images/volks.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center round-bottom-left bg-light-yellow">
+                  7. Android
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-top"
+                    src="images/android.png"
+                  />
+                  <br />
+                </td>
+                <td class="text-center round-bottom-right bg-dark-yellow">
+                  8. Pepsi
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-top"
+                    src="images/pepsi.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br /><br />
+          <p class="answer">
+            Note : Open images in new tab for better viewing experience
+          </p>
+        </section>
+        <div class="rounded-pill my-3 text-center bg-blue">
+          <a class="d-block py-3" id="a2" onclick="discat2()"
+            >Natural Elements</a
+          >
+        </div>
+        <section style="display: none;" class="bg-blue rounded-2 p-4 my-4" id="cat2">
+          <p class="answer">
+            Here are some mind blowing natural phenomenon of Golden Ratio
+          </p>
+          <div class="table-responsive">
+            <table class="table">
+              <tr>
+                <td class="w-300 text-center round-top-left bg-dark-blue">
+                  1. Flower
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/flower.png"
+                  />
+                  <br />
+                </td>
+                <td class="w-300 text-center round-top-right bg-light-blue">
+                  2. Snail
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/snail.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center round-bottom-left bg-light-blue">
+                  3. Face
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/face.png"
+                  />
+                  <br />
+                </td>
+                <td class="text-center round-bottom-right bg-dark-blue">
+                  4. Space
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/space.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br /><br />
+          <p class="answer">
+            Note : Open images in new tab for better viewing experience
+          </p>
+        </section>
+        <div class="rounded-pill my-3 text-center bg-pink">
+          <a class="d-block py-3" id="a3" onclick="discat3()">Monuments</a>
+        </div>
+        <section style="display: none;" class="bg-pink rounded-2 p-4 my-4" id="cat3">
+          <p class="answer">
+            The significance of Golden Ratio in Historical Monuments are listed
+            below
+          </p>
+          <div class="table-responsive">
+            <table class="table">
+              <tr>
+                <td class="w-300 text-center round-top-left bg-dark-pink">
+                  1. Parthenon
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/m1.png"
+                  />
+                  <br />
+                </td>
+                <td class="w-300 text-center round-top-right bg-light-pink">
+                  2. Pyramid of Giza
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/m2.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center bg-light-pink">
+                  3. Taj Mahal
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/m3.png"
+                  />
+                  <br />
+                </td>
+                <td class="text-center bg-dark-pink">
+                  4. Roman Arch
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/m4.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center round-bottom-left bg-dark-pink">
+                  5. Notre Dame
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/m5.png"
+                  />
+                  <br />
+                </td>
+                <td class="text-center round-bottom-right bg-light-pink">
+                  6. Eiffel Tower
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/m6.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br /><br />
+          <p class="answer">
+            Note : Open images in new tab for better viewing experience
+          </p>
+        </section>
+        <div class="rounded-pill my-3 text-center bg-yellow">
+          <a class="d-block py-3" id="a4" onclick="discat4()"
+            >Arts and Photography</a
+          >
+        </div>
+        <section style="display: none;" class="bg-yellow rounded-2 p-4 my-4" id="cat4">
+          <p class="answer">
+            No suprise that various Art forms and Photography also use Golden
+            Ratio !!
+          </p>
+          <div class="table-responsive">
+            <table class="table">
+              <tr>
+                <td class="w-300 text-center round-top-left bg-dark-yellow">
+                  1. Painting of Mona Lisa
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/ar1.png"
+                  />
+                  <br />
+                </td>
+                <td class="w-300 text-center round-top-right bg-light-yellow">
+                  2. Renaissance
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/ar2.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center bg-light-yellow">
+                  3. Last Supper
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/ar3.png"
+                  />
+                  <br />
+                </td>
+                <td class="text-center bg-dark-yellow">
+                  4. Da Vinci's Anatomy
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/ar4.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center round-bottom-left bg-dark-yellow">
+                  5. Picture
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/ar5.png"
+                  />
+                  <br />
+                </td>
+                <td class="text-center round-bottom-right bg-light-yellow">
+                  6. Statue of Liberty
+                  <br /><br />
+                  <img
+                    style="width: 100px"
+                    class="img-fluid rounded-start rounded-end"
+                    src="images/ar6.png"
+                  />
+                  <br />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br /><br />
+          <p class="answer">
+            Note : Open images in new tab for better viewing experience
+            <br /><br />
+          </p>
+        </section>
+      </div>
+    </main>
+    <!-- MAIN END -->
 
-			<div class="title my-4">
-				<div class="justify-content-center align-items-center row">
-					<div class="d-flex justify-content-center col-lg-4">
-						<img class="rounded-start rounded-end" src="images/giphy.gif" alt="gif-img" class="img-fluid">
-					</div>
-					<div class="col-lg-8 d-flex justify-content-center justify-content-lg-end">
-						<h1 class="mt-4 m-lg-0">GOLDEN RATIO - APPLICATIONS</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- HEADER END -->
-
-	<!-- MAIN START -->
-	<main class="container-fluid">
-		<div class="bg-pink p-4 rounded-2 my-3" id="cat0">
-			<p class="question">
-				Is Golden Ratio really helpful? 
-				<img class="rounded-start rounded-end" src="images/suprise.png" style="width: 40px;">
-			</p>
-			<p class="answer">
-				* Nature is full of amazing phenomena like Spiral Leaves Growth found in many Plants, not just like Sunflower, which follows golden ratio.
-				<br><br>
-				* In Photography, the Rule of Thirds is argulbly the strongest, most important rule of composition. It tend to provide the overall framework for an image, creating 'balance' and allowing other compositional elements to work with the photo. At the very least it is a good starting point when composing a shot.<br><br>
-				* The above mentioned examples are just a grain of sand among other vast applications of Golden Ratio. Below are some more examples of it...
-			</p>
-		</div>
-		<a class="cat rounded-pill" id="a1" onclick="discat1()">Brand Logos</a>
-		<div class="p-4 rounder-2 my-4 bg-yellow" id="cat1">
-			<p class="answer">
-				Top brand logos utilising the concept of Golden Ratio are listed below
-			</p>
-			<table>
-				<tr>
-					<td class="round-top-left bg-dark-yellow">
-						1. Apple
-						<br><br>
-						<img class="rounded-top" src="images/applegr.jpg">
-						<br>
-					</td>
-					<td class="round-top-right bg-light-yellow">
-						2. McDonald
-						<br><br>
-						<img class="rounded-top" src="images/mcdonald.png">
-						<br>
-					</td>
-				</tr>
-				<tr>
-					<td class="bg-light-yellow">
-						3. Nike
-						<br><br>
-						<img class="rounded-top" src="images/nike.png">
-						<br>
-					</td>
-					<td class="bg-dark-yellow">
-						4. Adidas
-						<br><br>
-						<img class="rounded-top" src="images/adidas.png">
-						<br>
-					</td>
-				</tr>
-				<tr>
-					<td class="bg-dark-yellow">
-						5. Twitter
-						<br><br>
-						<img class="rounded-top" src="images/twitter.png">
-						<br>
-					</td>
-					<td class="bg-light-yellow">
-						6. Volkswagen
-						<br><br>
-						<img class="rounded-top" src="images/volks.png">
-						<br>
-					</td>
-				</tr>
-				<tr>
-					<td class="round-bottom-left bg-light-yellow">
-						7. Android
-						<br><br>
-						<img class="rounded-top" src="images/android.png">
-						<br>
-					</td>
-					<td class="round-bottom-right bg-dark-yellow">
-						8. Pepsi
-						<br><br>
-						<img class="rounded-top" src="images/pepsi.png">
-						<br>
-					</td>
-				</tr>
-			</table>
-			<br><br>
-			<p class="answer">
-				Note : Open images in new tab for better viewing experience
-			</p>
-		</div>
-		<a class="cat rounded-pill" id="a2" onclick="discat2()">Natural Elements</a>
-		<div class="bg-blue rounded-2 p-4 my-4" id="cat2">
-			<p class="answer">
-				Here are some mind blowing natural phenomenon of Golden Ratio
-			</p>
-			<table>
-				<tr>
-					<td class="round-top-left bg-dark-blue">
-						1. Flower
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/flower.png">
-						<br>
-					</td>
-					<td class="round-top-right bg-light-blue">
-						2. Snail
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/snail.png">
-						<br>
-					</td>
-				</tr>
-				<tr>
-					<td class="round-bottom-left bg-light-blue">
-						3. Face
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/face.png">
-						<br>
-					</td>
-					<td class="round-bottom-right bg-dark-blue">
-						4. Space
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/space.png">
-						<br>
-					</td>
-				</tr>
-			</table>
-			<br><br>
-			<p class="answer">
-				Note : Open images in new tab for better viewing experience
-			</p>
-		</div>
-		<a class="cat rounded-pill" id="a3" onclick="discat3()">Monuments</a>
-		<div class="bg-pink rounder-2 p-4 my-4" id="cat3">
-			<p class="answer">
-				The significance of Golden Ratio in Historical Monuments are listed below
-			</p>
-			<table>
-				<tr>
-					<td class="round-top-left bg-dark-pink">
-						1. Parthenon
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/m1.png">
-						<br>
-					</td>
-					<td class="round-top-right bg-light-pink">
-						2. Pyramid of Giza
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/m2.png">
-						<br>
-					</td>
-				</tr>
-				<tr>
-					<td class="bg-light-pink">
-						3. Taj Mahal
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/m3.png">
-						<br>
-					</td>
-					<td class="bg-dark-pink">
-						4. Roman Arch
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/m4.png">
-						<br>
-					</td>
-				</tr>
-				<tr>
-					<td class="round-bottom-left bg-dark-pink">
-						5. Notre Dame
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/m5.png">
-						<br>
-					</td>
-					<td class="round-bottom-right bg-light-pink">
-						6. Eiffel Tower
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/m6.png">
-						<br>
-					</td>
-				</tr>
-			</table>
-			<br><br>
-			<p class="answer">
-				Note : Open images in new tab for better viewing experience
-			</p>
-		</div>
-		<a class="cat rounded-pill" id="a4" onclick="discat4()">Arts and Photography</a>
-		<div class="bg-yellow rounded-2 p-4 my-4" id="cat4">
-			<p class="answer">
-				No suprise that various Art forms and Photography also use Golden Ratio !!
-			</p>
-			<table>
-				<tr>
-					<td class="round-top-left bg-dark-yellow">
-						1. Painting of Mona Lisa
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/ar1.png">
-						<br>
-					</td>
-					<td class="round-top-right bg-light-yellow">
-						2. Renaissance
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/ar2.png">
-						<br>
-					</td>
-				</tr>
-				<tr>
-					<td class="bg-light-yellow">
-						3. Last Supper
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/ar3.png">
-						<br>
-					</td>
-					<td class="bg-dark-yellow">
-						4. Da Vinci's Anatomy
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/ar4.png">
-						<br>
-					</td>
-				</tr>
-				<tr>
-					<td class="round-bottom-left bg-dark-yellow">
-						5. Picture
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/ar5.png">
-						<br>
-					</td>
-					<td class="round-bottom-right bg-light-yellow">
-						6. Statue of Liberty
-						<br><br>
-						<img class="rounded-start rounded-end" src="images/ar6.png">
-						<br>
-					</td>
-				</tr>
-			</table>
-			<br><br>
-			<p class="answer">
-				Note : Open images in new tab for better viewing experience
-				<br><br>
-			</p>
-		</div>
-	</main>
-	<!-- MAIN END -->
-
-	<!-- JS Scripts -->
-	<script type="text/javascript" src="js/gr.js"></script>
-</body>
+    <!-- JS Scripts -->
+    <script type="text/javascript" src="js/gr.js"></script>
+  </body>
 </html>

@@ -47,11 +47,11 @@
 }
 
 .bg-light-yellow {
-	background-color: var(--light-yellow);
+	background-color: var(--light-yellow) !important;
 }
 
 .bg-dark-yellow {
-	background-color: var(--dark-yellow);
+	background-color: var(--dark-yellow) !important;
 }
 
 .bg-blue {
@@ -59,11 +59,11 @@
 }
 
 .bg-light-blue {
-	background-color: var(--light-blue);
+	background-color: var(--light-blue) !important;
 }
 
 .bg-dark-blue {
-	background-color: var(--dark-blue);
+	background-color: var(--dark-blue) !important;
 }
 
 .bg-pink {
@@ -71,11 +71,11 @@
 }
 
 .bg-light-pink {
-	background-color: var(--light-pink);
+	background-color: var(--light-pink) !important;
 }
 
 .bg-dark-pink {
-	background-color: var(--dark-pink);
+	background-color: var(--dark-pink) !important;
 }
 
 .round-top-left {
@@ -97,10 +97,16 @@
 a {
 	text-decoration: none;
 	transition: 0.5s;
+	color: black;
 }
 
 a:hover {
 	color: white;
+	cursor: pointer;
+}
+
+.w-300 {
+	min-width: 300px;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -120,7 +126,14 @@ header nav .nav-item .nav-link:hover {
 }
 
 header .title h1 {
-	font-size: 4rem;
+	font-size: clamp(2.5rem , 7vw , 3.25rem);
 }
 
 /* ---------------------------------------------------------------------- */
+
+/* Table */
+
+.table-responsive .table  {
+	border: 0px solid transparent !important;
+}
+
